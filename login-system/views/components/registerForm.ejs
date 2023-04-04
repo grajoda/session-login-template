@@ -1,0 +1,51 @@
+<div class="loginPage">
+    <h2>Safe Login</h2>
+
+    <h3>Cadastro</h3>
+
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="Nome de usuário">
+        <br>
+        <input type="text" name="email" placeholder="Email">
+        <br>
+        <input type="text" name="emailConfirm" placeholder="confirme seu Email">
+        <br>
+        <input type="password" name="password" placeholder="Senha"> 
+        <br>
+        <input type="password" name="passwordConfirm" placeholder="confirme sua Senha"> 
+        <br>
+        <button type="submit">cadastrar</button>
+    </form>
+
+
+</div>
+
+<style>
+    .loginPage{
+        text-align: center;
+    }
+
+    .loginPage h2 {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .loginPage input {
+        margin-bottom: 10px;
+        width: 250px;
+        height: 25px;
+        border-radius: 0.5em;
+        border: 1px;
+        border-style: solid;
+    }
+
+    .loginPage button {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px;
+        border-style: solid;
+    }
+</style>
